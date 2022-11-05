@@ -442,7 +442,58 @@
   
   
   /* Larger than mobile */
-  @media (min-width: 400px) {}
+  @media (max-width: 400px) {
+
+    /* Site Specific Stuff
+    –––––––––––––––––––––––––––––––––––––––––––––––––– */
+    .main-img h1 {
+        padding-top: 650px;
+        color: #333;
+        text-align: center;
+        font-weight: bold;
+        font-size: 210%;
+        line-height: 3rem;
+    }
+
+    .main-img h1 span {
+        font-size: 70%;
+        font-weight: 400;
+    }
+
+    .main-img h1 p {
+        line-height: 0;
+        font-size: 60%;
+    }
+
+    section.first {
+        margin-top: 10em;
+        padding: 1em;
+    }
+
+    section.second {
+        margin-top: 0em;
+        padding: 1em;
+    }
+
+    section.third {
+        margin-top: 0em;
+        padding: 1em;
+    }
+
+    .section-img {
+        width: 100%;
+    }
+
+    .section-description {
+        padding:3em;
+    }
+
+    .secondary-img h2 {
+        padding-top: 10%;
+        text-shadow: white 0px 0px 2px;
+    }
+
+  }
   
   /* Larger than phablet (also point when grid becomes active) */
   @media (min-width: 550px) {}
